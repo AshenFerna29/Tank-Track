@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: #6AA3F9;
+    
+
+}
+.SplashScreen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+
+}
+
+.TanktrackLogo{
+    display:inline;
+    animation: fadeOut  2s 2s forwards ;
+    
+    
+}
+@keyframes fadeOut{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+.logincontainer{
+    
+    background-color: white;
+ 
+    border-radius: 5px;
+    padding-bottom: 25.5%;
+   
+    
+}
+.LoginHeading{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 5%;
+    text-align: center;
+}
+h6{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    
+}
+.logo{
+    margin-top: 3%;
+    margin-left: 46%;
+
+
+}  
+
+.LoginInamge{
+    margin-left: 44%;
+    margin-top: 3%;
+    
+}
+h3{
+    text-align: center;
+    font-family: "Montserrat", sans-serif ;
+}
+.EmailInput{
+    margin-left: 38%;
+    font-family: "Montserrat", sans-serif ;
+    
+}
+.EmailInput input{
+    margin-top: 2%;
+    height: 30px;
+    border-radius: 15px;
+    width: 200px;
+    font-family: "Montserrat", sans-serif ;
+    
+}
+.Password{
+    margin-left: 38%;
+    margin-top: 3%;
+    font-family: "Montserrat", sans-serif ;
+
+}
+.Password input{
+    margin-top: 2%;
+    height: 30px;
+    border-radius: 15px;
+    width: 200px;
+    font-family: "Montserrat", sans-serif ;
+
+}
+.Loginbtn{
+    margin-left: 46%;
+    margin-top: 5%;
+    width: 100px;
+    border-radius: 15px;
+    height: 30px;
+    background-color: #6AA3F9;
+    color: white;
+    border-color: #6AA3F9;
+    transition: all 0.3s ease;
+    
+}
+.Loginbtn:hover{
+    background-color: white;
+    color: #6AA3F9;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    
+    
+
+}
+.Loginpara{
+    margin-left: 41%;
+    font-family:"Montserrat", sans-serif  ;
+}
+a{
+    color: #6AA3F9;
+    
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s ease;
+}
+a:hover{
+    transform: scale(1.1);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .LoginHeading {
+        font-size: 1.2rem;
+    }
+
+    h6 {
+        font-size: 0.7rem;
+    }
+
+    .logincontainer {
+        width: auto;
+      
+        
+    }
+
+    .logo {
+        margin-left: 35%;
+        height: 40px;
+    }
+
+    .LoginInamge {
+        margin-left: 32%;
+        height: 100px;
+    }
+    .EmailInput , .Password{
+        margin-left: 20%;
+    }
+
+    .EmailInput input, .Password input {
+        width: 70%;
+        
+    }
+
+    .Loginbtn {
+      
+        width: 120px;
+        height: 40px;
+        margin-left: 35%;
+    }
+
+    .Loginpara {
+       
+        margin-left: 28%;
+    }
+    .reg{
+        
+        margin-left: 20%;
+    }
+    a{
+        margin-left:43%;
+    }
+}
+
