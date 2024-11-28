@@ -10,7 +10,14 @@ body{
     justify-content: center;
     margin: 0;
     height: 100vh;
+    opacity: 1;
+    transition: opacity 1s ease;
 
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .TanktrackLogo{
@@ -35,6 +42,7 @@ body{
  
     border-radius: 5px;
     padding-bottom: 25.5%;
+    font-family:"Montserrat", sans-serif ;
    
     
 }
@@ -67,16 +75,26 @@ h3{
 .EmailInput{
     margin-left: 38%;
     font-family: "Montserrat", sans-serif ;
+    transition: .5s;
     
+}
+
+
+.EmailInput input:focus,
+.EmailInput input:valid{
+    border-bottom-color: var(--lightBulue);
 }
 .EmailInput input{
     margin-top: 2%;
-    height: 30px;
     border-radius: 15px;
+    height: 30px;
     width: 200px;
     font-family: "Montserrat", sans-serif ;
     
+    
 }
+
+
 .Password{
     margin-left: 38%;
     margin-top: 3%;
@@ -116,73 +134,17 @@ h3{
     margin-left: 41%;
     font-family:"Montserrat", sans-serif  ;
 }
-a{
+.Login_a{
     color: #6AA3F9;
     
     font-family: "Montserrat", sans-serif;
     transition: all 0.3s ease;
 }
-a:hover{
+.Login_a:hover{
     transform: scale(1.1);
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -234,8 +196,43 @@ a:hover{
         
         margin-left: 20%;
     }
-    a{
+    .Login_a{
         margin-left:43%;
     }
+    .HeadingReg{
+
+        text-align: center;
+        font-family:"Montserrat", sans-serif ;
+        font-size: 1.2rem;
+    
+    }
+
+    .RegInputs{
+        padding: 5%;
+        display: grid;
+        justify-items: center;
+    
+        
+    }
+
+    .RegInputs input{
+        border-radius:15px ;
+        height: 30px;
+        width: 200px;
+        margin-top: 3%;
+        
+    }
+    .Reg_p{
+        margin-left: 0cap;
+        text-align: justify;
+        font-size: 0.7rem;
+        
+
+    }
+    
+
+
 }
+
+
 
